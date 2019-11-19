@@ -1,0 +1,138 @@
+[TITLE]
+
+[JUNCTIONS]
+ 4                                     0.0000
+ 2                                     0.0000
+ 3                                     0.0000
+ 7                                     0.0000
+ 10                                    0.0000
+
+[RESERVOIRS]
+ 9                                    11.9200 
+
+[TANKS]
+
+[PIPES]
+ 2                               9                               7                                   500.0000       0.0812       0.0100       0.0000 
+ 4                               7                               3                                   200.0000       0.0575       0.0100       0.0000 
+ 7                               3                               4                                   200.0000       0.0471       0.0100       0.0000 
+ 6                               3                               2                                   100.0000       0.0337       0.0100       0.0000 
+ 5                               7                               10                                  100.0000       0.0337       0.0100       0.0000 
+
+[PUMPS]
+
+[VALVES]
+
+[DEMANDS]
+ 4                                     0.001000 
+ 2                                     0.001000 
+ 3                                     0.001000 
+ 7                                     0.001000 
+ 10                                    0.001000 
+
+[EMITTERS]
+
+[STATUS]
+
+[PATTERNS]
+
+[CURVES]
+
+[CONTROLS]
+
+[QUALITY]
+
+[SOURCES]
+
+[MIXING]
+
+[REACTIONS]
+ ORDER  BULK            1.00
+ ORDER  WALL            1
+ ORDER  TANK            1.00
+ GLOBAL BULK            0.000000
+ GLOBAL WALL            0.000000
+
+[ENERGY]
+ GLOBAL EFFIC        75.0000
+ DEMAND CHARGE       0.0000
+
+[TIMES]
+ DURATION            0:00:00
+ HYDRAULIC TIMESTEP  1:00:00
+ QUALITY TIMESTEP    0:05:00
+ REPORT TIMESTEP     1:00:00
+ REPORT START        0:00:00
+ PATTERN TIMESTEP    1:00:00
+ PATTERN START       0:00:00
+ RULE TIMESTEP       0:06:00
+ START CLOCKTIME     0:00:00
+ STATISTIC           NONE
+
+[OPTIONS]
+ UNITS               LPS
+ PRESSURE            METERS
+ HEADLOSS            D-W
+ UNBALANCED          CONTINUE 10
+ QUALITY             NONE
+ DEMAND MULTIPLIER   1.0000
+ EMITTER EXPONENT    0.5000
+ VISCOSITY           1.000000
+ DIFFUSIVITY         1.000000
+ SPECIFIC GRAVITY    1.000000
+ TRIALS              40
+ ACCURACY            0.00100000
+ TOLERANCE           0.01000000
+ CHECKFREQ           2
+ MAXCHECK            10
+ DAMPLIMIT           0.00000000
+
+[REPORT]
+ PAGESIZE            0
+ STATUS              NO
+ SUMMARY             NO
+ ENERGY              NO
+ MESSAGES            YES
+ NODES               NONE
+ LINKS               NONE
+ Elevation           NO
+ Demand              PRECISION 2
+ Head                PRECISION 2
+ Pressure            PRECISION 2
+ Quality             NO
+ Length              NO
+ Diameter            NO
+ Flow                PRECISION 2
+ Velocity            PRECISION 2
+ Headloss            PRECISION 2
+ Quality             NO
+ State               NO
+ Setting             NO
+ Reaction            NO
+
+
+
+[COORDINATES]
+ 4                                  6295.220000    7858.180000
+ 2                                  6324.170000    6526.770000
+ 3                                  4934.880000    7221.420000
+ 7                                  2561.510000    7192.470000
+ 10                                 4500.720000    4746.740000
+ 9                                  -303.910000    8538.350000
+
+[TAGS]
+
+[VERTICES]
+;Link            	X-Coord         	Y-Coord
+
+[LABELS]
+;X-Coord           Y-Coord          Label & Anchor Node
+
+[BACKDROP]
+ DIMENSIONS     	0.00            	0.00            	10000.00        	10000.00        
+ UNITS          	None
+ FILE           	
+ OFFSET         	0.00            	0.00            
+
+
+[END]
